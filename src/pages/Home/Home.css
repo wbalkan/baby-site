@@ -1,3 +1,20 @@
+.header {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    background-color: palevioletred;
+    width: 100%;
+    height: 15%;
+
+    color: darkblue;
+
+    border-bottom: 5px darkblue solid;
+}
+
+
+
 .parent {
     display: flex;
     flex-direction: row;
@@ -16,6 +33,40 @@
 
 .inner {
     width: 25vw;
+}
 
+.low-banner {
+    position: fixed;
+    left: 0px;
+    top: 85%;
+    
+    
+    width: 100%;
+    height: 15%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: palevioletred;
+    border-top: 5px darkblue solid;
+    align-items: center;
+
+}
+
+a {
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(143, 148, 248);
+    border: solid darkblue 2px;
+    border-radius: 50px;
+    color: darkblue;
+}
+
+a:hover {
+    background-color: rgb(162, 109, 127);
 }
